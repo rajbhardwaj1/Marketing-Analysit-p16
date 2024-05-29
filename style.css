@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+html{
+    font-size: 100%;
+}
+body{
+    background-color: rgb(243, 235, 225);
+}
+.head-section{
+    width: 100%;
+    /* background-color: rgba(165, 42, 42, 0.5); */
+    aspect-ratio: 10/1.3;
+    text-align: center;
+    padding-top: 4.5rem;
+}
+h3{
+    font-size: 1.1rem;
+    margin-bottom: .6rem;
+}
+h1{
+    font-size: 2.6rem;
+}
+.main-line{
+    width: 100%;
+    height: 11px;
+    /* background-color: rgba(58, 58, 206, 0.267); */
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.line{
+    width: 29.5rem;
+    height: 100%;
+    display: flex;
+       
+}
+.line div{
+    width: calc((100%)/5);
+    height: 100%;
+}
+.l1{
+    background-color: #E78787;
+}
+.l2{
+    background-color: rgb(145,207,248);
+}
+.l3{
+    background-color: rgb(43,189,133);
+}
+.l4{
+    background-color: rgb(235,204,104);
+}
+.l5{
+    background-color: rgb(176,142,216);
+}
+/* -------------------------------hero -- section--------------------------- */
+.hero-section{
+    width: 100%;
+    height: auto;
+    /* background-color: rgba(255, 0, 0, 0.171); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 50%;
+    aspect-ratio: 2/1;
+    background-color: rgba(0, 0, 0, 0.123);
+    margin-top: 3rem;
+    display: flex;
+    position: relative;
+}
+.container div{
+    width: 23.6%;
+    aspect-ratio: 1/1;
+    /* transform:rotate(45deg); */
+    position: absolute;
+
+}
+.box1{
+    background-color: #E78787;
+    transform: translate(20%,20%) rotate(45deg);
+}
+.box2{
+    background-color:rgb(145,207,248) ;
+    transform: translate(90.5%,90.5%) rotate(45deg);
+}
+.box3{
+    background-color: rgb(43,189,133);
+    transform: translate(161%,20%) rotate(45deg);
+}
+.box4{
+    background-color: rgb(235,204,104);
+    transform: translate(231.5%,90.5%) rotate(45deg);
+}
+.box5{
+    background-color: rgb(176,142,216);
+    transform: translate(302%,20%) rotate(45deg);
+    
+}
