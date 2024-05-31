@@ -107,5 +107,8 @@ h1{
 .box5{
     background-color: rgb(176,142,216);
     transform: translate(302%,20%) rotate(45deg);
-    
+}
+.box5:hover{
+    transition: translate 0.3s ease-in-out;
+
 }
