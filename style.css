@@ -76,7 +76,7 @@ h1{
 .container{
     width: 50%;
     aspect-ratio: 2/1;
-    background-color: rgba(0, 0, 0, 0.123);
+    /* background-color: rgba(0, 0, 0, 0.123); */
     margin-top: 3rem;
     display: flex;
     position: relative;
@@ -108,7 +108,22 @@ h1{
     background-color: rgb(176,142,216);
     transform: translate(302%,20%) rotate(45deg);
 }
-.box5:hover{
-    transition: translate 0.3s ease-in-out;
 
+
+.tra1,.tra2,.tra3,.tra4{
+    /* height: 0; */
+    /* width: 0; */
+    position: absolute;
+    /* border-bottom: 1rem solid transparent; */
+    /* border-top: 1rem solid transparent; */
+}
+.tra1{
+    width: 50%;
+    height: 50%;
+    background-color:#E78787;
+    clip-path: polygon(20% 10%, 0% 20%, 0% 0%);
+    transform: translate(60%,111%) rotate(45deg);
+}
+.tra2{
+    border-left: 50% solid #bd792b;
 }
