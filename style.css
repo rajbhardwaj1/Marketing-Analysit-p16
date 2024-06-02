@@ -108,22 +108,35 @@ h1{
     background-color: rgb(176,142,216);
     transform: translate(302%,20%) rotate(45deg);
 }
-
+/* ------trangle shape---------- */
 
 .tra1,.tra2,.tra3,.tra4{
-    /* height: 0; */
-    /* width: 0; */
-    position: absolute;
-    /* border-bottom: 1rem solid transparent; */
-    /* border-top: 1rem solid transparent; */
-}
-.tra1{
     width: 50%;
     height: 50%;
+    position: absolute;
+    clip-path: polygon(15% 9%, 0% 18%, 0% 0%);
+}
+.tra1{
+    
     background-color:#E78787;
-    clip-path: polygon(20% 10%, 0% 20%, 0% 0%);
-    transform: translate(60%,111%) rotate(45deg);
+    transform: translate(58%,112%) rotate(45deg);
 }
 .tra2{
-    border-left: 50% solid #bd792b;
+    background-color:rgb(145,207,248);
+    transform: translate(192%,46%) rotate(-45deg);
 }
+.tra3{
+    background-color:rgb(43,189,133);
+    transform: translate(199%,112%) rotate(45deg);
+}
+.tra4{
+    background-color:rgb(235,204,104);
+    transform: translate(333%,46%) rotate(-45deg);
+}
+/* -------------------   Icons -  ------------------ */
+.icon{
+    width: 34%;
+    filter: invert();
+    transform: translate(50%,50%) rotate(-45deg);
+}
+
