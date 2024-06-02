@@ -139,4 +139,53 @@ h1{
     filter: invert();
     transform: translate(50%,50%) rotate(-45deg);
 }
+.text{
+    color: white;
+    font-size: 1.3vw;
+    font-weight: bold;
+    position: absolute;
+    text-align: center;
+    transform: translate(60%,30%) rotate(-45deg);
 
+}
+.text5{
+    transform: translate(30%,40%) rotate(-45deg);
+}
+
+/* --------media query----------- */
+@media (max-width : 1100px) {
+    
+    .container{
+        width: 80%;
+    }
+    .text{
+        font-size: 2vw;
+    }
+}
+@media (max-width : 800px) {
+    html{
+        font-size: 90%;
+    }
+    .container{
+        width: 90%;
+    }
+    .text{
+        font-size: 2.2vw;
+    }
+}
+@media (max-width : 550px) {
+    html{
+        font-size: 70%;
+    }
+    .text{
+        font-size: 2.4vw;
+    }
+}
+@media (max-width : 400px) {
+    html{
+        font-size: 50%;
+    }
+    .text{
+        font-size: 2.4vw;
+    }
+}
